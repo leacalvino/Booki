@@ -45,15 +45,15 @@
           </div>
 
           <form class="formulaire-recherche">
-            <span class="icone-localisation">📍</span>
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
 
-            <input
-              type="text"
-              placeholder="Marseille, France"
-              aria-label="Ville recherchée"
-            />
+            <input type="text" placeholder="Marseille, France" aria-label="Ville recherchée"/>
 
-            <button type="submit">Rechercher</button>
+            <button type="submit">
+              <span class="texte-recherche">Rechercher</span>
+              <span class="icone-recherche"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+              </span>
+            </button>
           </form>
 
           <div class="filtres">
@@ -108,10 +108,7 @@
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
-                      <i
-                        class="fa-xs fa-solid fa-star neutral-star"
-                        aria-hidden="true"
-                      ></i>
+                      <i class="fa-xs fa-solid fa-star neutral-star" aria-hidden="true"></i>
                       <span class="sr-only">Note de 4 sur 5</span>
                     </div>
                   </div>
@@ -255,8 +252,9 @@
             <a href="#" class="afficher-plus">Afficher plus</a>
           </section>
 
+
+          <!-- Section Les plus populaires -->
         <div class="hebergements3">
-        
           <section class="populaires">
             <div class="populaires-title">
               <h2 class="section-title">Les plus populaires</h2>
@@ -266,9 +264,7 @@
             <div class="populaires-cards">
               <a href="#">
                 <article class="card">
-                  <img
-                    src="./images/hebergements/emile-guillemot.jpg"
-                    alt="Image de la chambre d'hôtel montrant un lit"/>
+                  <img src="./images/hebergements/emile-guillemot.jpg" alt="Image de la chambre d'hôtel montrant un lit"/>
                   <div class="card-content">
                     <div class="card-txt">
                       <h3 class="card-title">Hôtel Le soleil du matin</h3>
@@ -387,10 +383,7 @@
 
             <a href="#">
               <article class="card">
-                <img
-                  src="./images/activites/florian-wehde.jpg"
-                  alt="Vue de Notre-Dame-de-la-Garde"
-                />
+                <img src="./images/activites/florian-wehde.jpg" alt="Vue de Notre-Dame-de-la-Garde"/>
                 <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
               </article>
             </a>
