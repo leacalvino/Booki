@@ -223,7 +223,7 @@ nav a:hover {
 }
 
 .hebergements-cards .card-content {
-  padding: 5px;
+  padding: 9px;
 }
 
 .hebergements1 {
@@ -527,20 +527,20 @@ nav a:hover {
     background-color: #0065fc;
   }
 
-  .filtres {
-    display: flex;
-    flex-wrap: wrap;
+  .filtres-liste {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 15px;
+  }
+
+  .filtre {
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: center;
   }
 
   .filtres h2 {
     width: 100%;
-  }
-
-  .filtres-liste {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
   }
 
   .hebergements1 {
